@@ -4,6 +4,15 @@ function convertirTexto() {
     //Aqui tu codigo
 }
 
+function convertirTexto(txt) {
+    if (typeof txt == 'string'){
+        if(!txt.length){ return null}
+        var texto = txt.split('')
+        return texto.reduce((h, c) => (c.charCodeAt(0)+h))
+    }else return "Error: Ingrese un texto"
+
+}
+console.log(convertirTexto('HOLA'))
 
 function HashTable() {
     //      Hash Table
@@ -15,3 +24,19 @@ function HashTable() {
     //      Aqui tu codigo
 
 }
+
+function HashTable() {
+
+    const diccionario = new Map();
+
+    diccionario.set("Saludo", "Acción y efecto de saludar.")
+    diccionario.set("Imágen", "Figura, representación, semejanza y apariencia de algo.")
+    diccionario.set("Clave", "Código de signos convenidos para la transmisión de mensajes secretos o privados.")
+    diccionario.set("Puerta", "Hueco o abertura regular en una pared, una cerca, una verja, etc., desde el suelo hasta una altura conveniente, que se usa para entrar y salir.")
+
+    return diccionario
+}
+
+const Tabla = HashTable()
+
+console.log (Tabla.get("Puerta"))

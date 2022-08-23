@@ -2,8 +2,17 @@ Explica con tus propias palabras los siguientes conceptos.
 
 - Que es un hashTable?
 
+Es una estructura que guarda valores asociandolos con llaves o claves. Los datos son guardados como en un arreglo, pero los índices tienen que ver con lo qué está guardado dentro. Esto hace que sean
+muy rápidas para buscar datos.
+
 - Que hace un get 
+
+Útil básicamente para realizar el acceso a propiedades de los objetos. Get se encarga de recibir un valor.
 
 - Que hace un set
 
+Útil básicamente para realizar el acceso a propiedades de los objetos. Set se encarga de asignar un valor.
+
 - Para que sirve un hashTable?
+
+Puede permitirnos crear acceso a los elementos de direccion y teléfonos que han sido almacenados a partir de una clave o llave generada usando el nombre del usuario o id de identificación del mismo.
